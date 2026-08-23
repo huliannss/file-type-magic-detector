@@ -1,0 +1,1 @@
+def detect(b): return 'png' if b.startswith(b'\x89PNG') else 'unknown'
